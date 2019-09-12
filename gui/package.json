@@ -1,0 +1,21 @@
+{
+  "name": "gui",
+  "version": "1.0.0",
+  "description": "generador de codigo para microservicios",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "python",
+    "electron",
+    "spring",
+    "boot",
+    "angular"
+  ],
+  "author": "hans.arias",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^6.0.8"
+  }
+}
