@@ -2,7 +2,7 @@
   "name": "gui",
   "version": "1.0.0",
   "description": "generador de codigo para microservicios",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
@@ -15,7 +15,12 @@
   ],
   "author": "hans.arias",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hearias6/spring-generator.git"
+  },
   "dependencies": {
-    "electron": "^6.0.8"
+    "electron": "^6.0.8",
+    "electron-reload": "^1.5.0"
   }
 }
