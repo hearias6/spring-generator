@@ -18,7 +18,7 @@ class Scripting{
         });
     }
 
-    // ejecutar un script
+    // ejecutar un script  ok testado.
     ejecutarScript(ruta, script){
         PythonShell.run(ruta + script, null, function (err, results) {
             if (err) throw err;
