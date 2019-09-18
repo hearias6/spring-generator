@@ -13,48 +13,45 @@
 
         <div class="row">
             <div class="col-md-2">
-                <a href="../proyecto/proyecto.html" class="btn btn-info">Back</a>
+                <a href="../tablas/tabla.html" class="btn btn-info">Back</a>
             </div>
             <div class="col-md-8">
                 <h5 class="text-center">
-                    <b>Proyecto: </b>    
-                     UsuarioService
+                    <b>Tabla: </b>    
+                     TableName
                 </h5>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <a href="crear-columna.html" class="btn btn-success">
+                    Nuevo
+                </a>
+            </div>
         </div>
 
-        <form style="margin-top:20px">
-            <div class="form-group row">
-              <label for="staticEmail" class="col-sm-2 col-form-label">
-                  Crear Tabla 
-               </label>
-              <div class="col-sm-8">
-                <input type="text" class="form-control-plaintext"
-                id="txt-table" placeholder="Ingrese Nombre Tabla ejemplo HA_USUARIOS">
-              </div>
-              <div class="col-sm-2">
-                  <button id="btn-nueva-tabla"
-                  class="btn btn-success">add</button>
-              </div>
-            </div>
-        </form>
-
-        <div class="row">
+        <div class="row" style="margin-top:30px">
             <div class="col-md-12">
                 <table class="table">
                     <thead>
                         <tr>
-                            <td>Tabla</td>
+                            <td>Columna</td>
+                            <td>Tipo Dato</td>
+                            <td>PK</td>
+                            <td>FK</td>
+                            <td>Referencia</td>
                             <td>Opciones</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Nombre Tabla</td>
+                            <td>ID</td>
+                            <td>Number</td>
+                            <td>SI</td>
+                            <td>NO</td>
+                            <td>NO</td>
                             <td>
-                                <a href="" class="btn btn-danger btn-sm">Eliminar</a>
-                                <a href="../columnas/columna.html" class="btn btn-warning btn-sm">Columnas</a>
+                                <a href="" class="btn btn-danger btn-sm">
+                                    Eliminar
+                                </a>
                             </td>
                         </tr>
                     </tbody>

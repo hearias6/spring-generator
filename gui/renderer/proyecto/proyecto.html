@@ -4,22 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Proyectos</title>
+        <title>Proyectos (Microservicios)</title>
         <link rel="stylesheet" href="../../resources/bootstrap/css/bootstrap.min.css">
         <script scr="../../resources/body/js/bootstrap.min.js"></script>
     </head>
     <body>    
         <section style="margin:3%">
-            <a href="../index/index.html" class="btn btn-info">Pagina Principal</a>
+            <a href="../index/index.html" class="btn btn-info">
+                Back
+            </a>
             <div class="row">
-                <div class="col-sm-10">
-                    <h1>Servicio</h1>
+                <div class="col-sm-8">
+                    <h1>Proyectos (Microservicios)</h1>
                 </div>
-                <div class="col-sm-2 text-right">                     
+                <div class="col-sm-4 text-right">                     
                     <a href="crear-proyecto.html" 
                         class="btn btn-success"
                         id="btnNuevoProyecto">
-                        Nuevo
+                        Nuevo Proyecto
                     </a>                    
                 </div>            
             </div>
@@ -33,7 +35,7 @@
                                 <th>Proyecto</th>
                                 <th>Servicio</th>
                                 <th>Paquete</th>                        
-                                <th>Tecnologias</th>
+                                <th>Opciones</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -43,10 +45,14 @@
                                 <td>api/apartamento</td>
                                 <td>com.haarias.app</td>
                                 <td>
-                                    <span class="badge badge-success">Spring Boot</span>
-                                    <span class="badge badge-danger">Angular</span>
-                                    <span class="badge badge-dark">Postgrsql</span>
-                                    <span class="badge badge-info">Bootstrap</span>
+                                    <a href="../tecnologia/tecnologia.html"
+                                     class="btn btn-secondary btn-sm">
+                                        Tecnologia
+                                    </a>
+                                    <a href="../tablas/tabla.html" 
+                                        class="btn btn-info btn-sm">
+                                        Tabla
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>
